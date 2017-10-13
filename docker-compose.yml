@@ -2,7 +2,7 @@ version: '2'
 
 services:
   jira:
-    image: djellison/jira
+    image: djellison/jira:main
     container_name: jirasoftware
     networks:
       - jiranet
